@@ -1,0 +1,27 @@
+.container
+{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    margin-top: 10px;
+}
+
+.cell 
+{
+    background: white;
+}
+
+.hovered
+{
+    background: black;
+}
+
+button
+{
+    font-size: 5px;
+    height: 12px;
+    width: auto;
+}
